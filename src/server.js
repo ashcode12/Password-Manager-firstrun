@@ -9,4 +9,3 @@ app.use('/api', routes);  // All routes will start with /api
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
-

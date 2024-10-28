@@ -2,8 +2,9 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 
-app.get('/', (req, res) => {
-    res.send('Hello, Password Manager!');
+// Define a test route directly in server.js
+app.get('/api', (req, res) => {
+    res.send('Welcome to the Password Manager API');
 });
 
 app.listen(PORT, () => {
