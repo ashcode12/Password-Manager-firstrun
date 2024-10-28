@@ -1,0 +1,14 @@
+# Node modules directory
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS and Editor-specific files
+.DS_Store
+.env
+
+# VS Code settings
+.vscode/
